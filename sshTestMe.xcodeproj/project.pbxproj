@@ -21,6 +21,7 @@
 		DA3609481824122B00A61D07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA36092A1824122A00A61D07 /* UIKit.framework */; };
 		DA3609501824122B00A61D07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA36094E1824122B00A61D07 /* InfoPlist.strings */; };
 		DA3609521824122B00A61D07 /* sshTestMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3609511824122B00A61D07 /* sshTestMeTests.m */; };
+		DA36095D1824135500A61D07 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DA36095C1824135500A61D07 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		DA36094D1824122B00A61D07 /* sshTestMeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sshTestMeTests-Info.plist"; sourceTree = "<group>"; };
 		DA36094F1824122B00A61D07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DA3609511824122B00A61D07 /* sshTestMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sshTestMeTests.m; sourceTree = "<group>"; };
+		DA36095C1824135500A61D07 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		DA36091A1824122A00A61D07 = {
 			isa = PBXGroup;
 			children = (
+				DA36095B1824133900A61D07 /* Notes */,
 				DA36092C1824122A00A61D07 /* sshTestMe */,
 				DA36094B1824122B00A61D07 /* sshTestMeTests */,
 				DA3609251824122A00A61D07 /* Frameworks */,
@@ -150,6 +153,14 @@
 				DA36094E1824122B00A61D07 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA36095B1824133900A61D07 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				DA36095C1824135500A61D07 /* README.md */,
+			);
+			name = Notes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +241,7 @@
 			files = (
 				DA36093F1824122A00A61D07 /* Images.xcassets in Resources */,
 				DA3609311824122A00A61D07 /* InfoPlist.strings in Resources */,
+				DA36095D1824135500A61D07 /* README.md in Resources */,
 				DA36093A1824122A00A61D07 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +472,7 @@
 				DA3609571824122B00A61D07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA3609581824122B00A61D07 /* Build configuration list for PBXNativeTarget "sshTestMeTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +481,7 @@
 				DA36095A1824122B00A61D07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
