@@ -7,7 +7,7 @@ NOTE: to use ssh follow directions at https://github.com/settings/ssh
 Created a repo sshTestMe on github set to ssh
 
 in terminal
-cd /Users/wet/dev/xDev/TestMe 
+cd {fullpath}/TestMe 
 git remote add origin git@github.com:BarryNelson/sshTestMe.git
 git push -u origin master
 NOTE: it will not work if you don't have the ssh key configured properly
